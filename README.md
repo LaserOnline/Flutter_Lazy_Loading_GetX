@@ -57,5 +57,5 @@ class RegisterBinding implements Bindings {
 
 #### binding ใน GetPage คืออะไร ?
 
-binding บ่งบอกว่าเมื่อหน้า LoginView ถูกเรียกใช้, การเชื่อมต่อ RegisterBinding 
+binding บ่งบอกว่าเมื่อหน้า RegisterView ถูกเรียกใช้, การเชื่อมต่อ RegisterBinding 
 จะถูกสั่งให้ทำงาน. ภายใน RegisterBinding, คุณได้กำหนดว่า RegisterController ควรถูกสร้างขึ้นโดยใช้ lazy loading
