@@ -49,6 +49,21 @@ class RegisterBinding implements Bindings {
 }
 ```
 
+register.dart
+```bash
+import 'package:get/get.dart';
+
+class RegisterController extends GetxController {
+  RegisterController() {
+    print('Starting RegisterController creation...');
+    Future.delayed(Duration(seconds: 3), () {
+      print('RegisterController created!');
+    });
+  }
+}
+
+```
+
 ## FAQ
 
 #### คำสั้ง ? Get.lazyPut<RegisterController>(() => RegisterController());
